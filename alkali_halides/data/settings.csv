@@ -1,0 +1,23 @@
+key;alkali;halide;set_structure;set_nbnd;valence;set_ecutwfc;set_kpoints_co;set_kpoints_fi;set_kpoints_scf;set_ecuteps;set_screened_cutoff;set_fft
+U8;U8;U8;U8;int;int;float;int;int;int;float;float;int
+LiF;Li;F;fcc;90;5;90;3;8;12;19;19;27
+LiCl;Li;Cl;fcc;70;5;70;3;6;20;13;13;27
+LiBr;Li;Br;fcc;70;5;70;3;8;16;13;13;27
+LiI;Li;I;fcc;80;5;80;3;8;9;11;11;27
+NaF;Na;F;fcc;130;8;100;3;6;9;13;13;27
+NaCl;Na;Cl;fcc;90;8;90;3;6;7;16;16;27
+NaBr;Na;Br;fcc;100;8;90;3;8;7;14;14;27
+NaI;Na;I;fcc;100;8;90;3;8;12;13;13;27
+KF;K;F;fcc;110;8;90;3;6;7;8;8;27
+KCl;K;Cl;fcc;90;8;70;3;6;20;11;11;27
+KBr;K;Br;fcc;90;8;70;3;6;12;14;14;27
+KI;K;I;fcc;90;8;70;3;6;16;7;7;27
+RbF;Rb;F;fcc;110;8;110;3;6;7;8;8;27
+RbCl;Rb;Cl;fcc;110;8;70;3;6;7;10;10;27
+RbBr;Rb;Br;fcc;110;8;80;3;6;7;10;10;27
+RbI;Rb;I;fcc;90;8;80;3;6;9;7;7;27
+CsF;Cs;F;fcc;110;8;90;3;6;7;8;8;27
+CsCl;Cs;Cl;fcc;110;8;60;3;6;9;10;10;27
+CsBr;Cs;Br;fcc;110;8;50;3;6;12;10;10;27
+CsI;Cs;I;fcc;110;8;70;3;6;7;8;8;27
+# COMMENTS;;;;;;;;;;;;

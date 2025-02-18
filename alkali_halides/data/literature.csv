@@ -1,0 +1,25 @@
+key;alkali;halide;lit_structure;lit_a0;lit_Eg;lit_E1s;lit_wL0;lit_eps0;lit_epsinf;lit_solubility
+U8;U8;U8;U8;float;float;float;float;float;float;float
+LiF;Li;F;fcc;4.03;13.7;12.9;12.6;9.04;1.92;0.27
+NaF;Na;F;fcc;4.63;11.5;10.66;8.1;5.07;1.74;4.2
+KF;K;F;fcc;5.35;10.8;9.88;6.1;6.05;1.85;92.3
+RbF;Rb;F;fcc;5.63;10.3;9.54;5.4;5.91;1.93;131
+CsF;Cs;F;fcc;6.01;9.8;9.27;;8.08;2.2;366
+LiCl;Li;Cl;fcc;5.14;9.4;8.67;7.5;11.86;2.79;63.7
+NaCl;Na;Cl;fcc;5.64;8.75;7.96;5.1;5.89;2.35;35.7
+KCl;K;Cl;fcc;6.29;8.7;7.79;4.02;4.81;2.2;34.7
+RbCl;Rb;Cl;fcc;6.58;8.5;7.54;3.4;4.92;2.91;77
+CsCl;Cs;Cl;bcc;4.11;8.3;7.85;3.1;6.95;2.67;162
+LiBr;Li;Br;fcc;5.5;7.6;7.23;6.1;13.33;3.22;145
+NaBr;Na;Br;fcc;5.98;7.1;6.71;3.98;6.4;2.64;116
+KBr;K;Br;fcc;6.6;7.4;6.71;3.21;4.9;2.39;53.5
+RbBr;Rb;Br;fcc;6.89;7.2;6.64;2.45;5;2.33;98
+CsBr;Cs;Br;bcc;4.3;7.3;6.83;1.98;6.66;2.83;124
+LiI;Li;I;fcc;6;6.1;5.94;;11;3.8;165
+NaI;Na;I;fcc;6.47;5.9;5.61;3.47;7.28;3.08;184
+KI;K;I;fcc;7.07;6.34;5.88;2.7;5.09;2.68;127
+RbI;Rb;I;fcc;7.34;6.3;5.73;2.04;4.94;2.61;152
+CsI;Cs;I;bcc;4.57;6.1;5.3;1.79;6.59;3.09;44
+# COMMENTS
+# SOURCE: K.S. Song; R.T. Williams; Self-Trapped Excitons; 2nd ed.; Table 5.7
+# structure `sc` has been changed to `bcc`
