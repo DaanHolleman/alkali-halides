@@ -17,5 +17,5 @@ find = {}
 include-package-data = true
 
 [project.scripts]
-mplib_displace = "alkali_halides.scripts.displace:main"
+AH_displace = "alkali_halides.scripts.displace:main"
 
