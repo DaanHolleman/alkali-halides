@@ -14,4 +14,7 @@ Each crystal of the alkali halides is given four attribute dictionaries called `
 dictionary. The values from literature are stored in lit and their calculated counterparts in `calc`. The values found from convergence tests are stored in `conv`.  
 
 The implementation of the attribute dictionary allows the user to obtain the values from the
-dictionary, not just from keywords, but also from attribute collection. For example, the value for the wavefunction cutoff, stored in the settings dictionary, can be obtained via `settings.ecutwfc` in addition to the regular method `settings[’ecutwfc’]`.
+dictionary, not just from keywords, but also from attribute collection. For example, the value for the wavefunction cutoff, stored in the settings dictionary, can be obtained via `settings.ecutwfc` in addition to the regular method `settings[’ecutwfc’]`.  
+
+Linear displacements of single atoms can be done by invoking the script `AH_displace` from the terminal. See --help for more information on the options that are available. The default option for displacements is line, which displaces the atom in a line, the direction of which is decided from the lattice vectors (abc). If line-cart is used, the direction of the path is decided from the cartesian coordinates (xyz). The options mag and mag-cart allows you to specify the magnitude of the vector.  
+For example, mag-cart 1 1 1 0.66 will use the vector $0.66 \cdot (1,1,1) / \sqrt{1+1+1}$.
