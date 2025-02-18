@@ -1,6 +1,6 @@
 [project]
 name = "alkali_halides"
-version = "0.1"
+version = "0.2"
 dependencies = [
     "numpy",
     "pymatgen",
@@ -11,13 +11,11 @@ dependencies = [
 find = {}
 
 [tool.setuptools.package-data]
-"MPlib.alkali_halides" = ["data/*.csv"]
+"alkali_halides" = ["data/*.csv"]
 
 [tool.setuptools]
 include-package-data = true
 
 [project.scripts]
-mplib_create_launch = "MPlib.scripts.generate_launch:main"
-mplib_displace = "MPlib.scripts.displace:main"
-mplib_health = "MPlib.scripts.report_health:main"
+mplib_displace = "alkali_halides.scripts.displace:main"
 
