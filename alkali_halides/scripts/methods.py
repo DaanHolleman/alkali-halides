@@ -15,7 +15,7 @@ def line(QE_data:tuple, cart = False, mag = False):
     
     # Vector of displacement
     if mag:
-        msg = f'Enter displacement vector [{"xyz m" if cart else "abc m"}].\n>>> '
+        msg = f'Enter displacement vector [{"xyz m (\u212b)" if cart else "abc m (1/\u212b)"}].\n>>> '
         user = input(msg)
         dis_vec = np.array(user.strip().split(),float)
         u_vec = dis_vec[0:3] / np.sqrt( np.sum(dis_vec[0:3]**2) )
@@ -53,6 +53,7 @@ def line_cell(QE_data:tuple):
     Generate structures with displacements along a single vector.
     """
     return line(QE_data)
+
 def mag_cart(QE_data:tuple):
     """
     Generate structures by specifying a direction in cartesian coordinates and magnitude.

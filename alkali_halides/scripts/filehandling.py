@@ -5,7 +5,15 @@ Created on Wed Oct 16 10:36:42 2024
 @author: dholl
 """
 
-from .helper import leading_zeros
+from numpy import log10
+
+def leading_zeros(x:list):
+    """
+    Calculates how many leading zeros should be present for lower numbers given a maximum number.
+    """
+    N = x if type(x) in [int,bool] else len(x)
+    if N == 0: N = 1
+    return int(log10(N))+1
 
 def select(lst:list, chunksize:int = 20):
     """
